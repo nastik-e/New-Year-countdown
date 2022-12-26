@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: radial-gradient(#860000, #460000, #360000);
+}
+#root {
+  width: 70%;
+  height: 50%;
+  /* background-color: #e61c1e; */
+  min-width: 300px;
+  min-height: 200px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(219, 216, 216);
+  font-size: 80px;
+  font-family: 'Dancing Script', cursive;
+}
+
+.countdownContainer {
+  font-size: 120px;
+  width: 100%;
+}
